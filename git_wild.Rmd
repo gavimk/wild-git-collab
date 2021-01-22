@@ -43,6 +43,15 @@ ggplot(data = diamonds, aes(x = depth, y = carat)) +
 
 MATH_IS_COOL <- 45 + 1
 
+### Kept both graphs since they so cool - IB
+
+ggplot(data = diamonds, aes(x = depth, y = carat)) +
+  geom_point() +
+  theme_void() + 
+  geom_text(label = "HEYYY")
+
+# how u like my graph??
+
 ```
 
 ```{r break-it-2}
