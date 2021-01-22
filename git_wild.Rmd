@@ -56,6 +56,14 @@ ggplot(data = diamonds, aes(x = depth, y = carat)) +
 
 ```{r break-it-2}
 
+#### Hows life? I miss you friend!
+
+
+100+1
+
+# = Dalmatians
+
+
 ```
 
 ## END Discussion 3
