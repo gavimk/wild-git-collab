@@ -56,6 +56,9 @@ ggplot(data = diamonds, aes(x = depth, y = carat)) +
 
 ```{r break-it-2}
 
+
+
+# Obviously keep this sick function
 # function
 
 fx_cool <- function(name){
@@ -77,6 +80,16 @@ ggplot(data = diamonds, aes(x = depth, y = carat)) +
     fill="#69b3a2")
 
 #I STOLE THE LABEL CODE FROM THE WEB!!! sorry r-graph-gallery
+
+#### Hows life? I miss you friend!
+# Awwwww it's weird you know but it's good!!! Miss you !
+
+
+100+1
+
+# = Dalmatians
+
+
 ```
 
 ## END Discussion 3
