@@ -56,7 +56,33 @@ ggplot(data = diamonds, aes(x = depth, y = carat)) +
 
 ```{r break-it-2}
 
+
+
+# Obviously keep this sick function
+# function
+
+fx_cool <- function(name){
+  print(paste(name, "is cool", sep = " "))
+}
+
+fx_cool("Indigo")
+
+ggplot(data = diamonds, aes(x = depth, y = carat)) +
+  geom_point(color = "pink") +
+  theme_void() + 
+  labs(title = "WRECK IT UP!!!!!!!!!!!") + 
+  geom_text(label="Look at this!", 
+    x=4.1,
+    y=20,
+    label.padding = unit(0.55, "lines"), # Rectangle size around label
+    label.size = 0.35,
+    color = "black",
+    fill="#69b3a2")
+
+#I STOLE THE LABEL CODE FROM THE WEB!!! sorry r-graph-gallery
+
 #### Hows life? I miss you friend!
+# Awwwww it's weird you know but it's good!!! Miss you !
 
 
 100+1
